@@ -1,0 +1,30 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "Developing a command-line application to manage a company's employee database.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "mysql"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jgarcia45/employee-tracker.git"
+    },
+    "keywords": [
+        "node.js",
+        "inquirer",
+        "mysql"
+    ],
+    "author": "Makayla Russell",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/makandcheese04/makemployeetracker"
+    },
+    "homepage": "https://github.com/makandcheese04/makemployeetracker#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "inquirer": "^8.2.4",
+        "mysql2": "^2.3.3"
+    }
+}
